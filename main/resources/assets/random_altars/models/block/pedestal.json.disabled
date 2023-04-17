@@ -1,0 +1,105 @@
+{   "parent": "block/block",
+    "textures": {
+        "body": "blocks/quartz_pillar",
+        "pillar": "blocks/lapis_block",
+        "bottom": "blocks/netherite_block",
+        "bottomt": "blocks/polished_basalt_top",
+        "topt": "blocks/quartz_block_chiseled_top",
+        "tops": "blocks/quartz_block_lines",
+        "topb": "blocks/quartz_block_chiseled_top"
+    },
+    "display": {
+        "fixed": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.5, 0.5, 0.5 ]
+        }
+    },
+    "elements": [
+        {   "__comment": "AltarBottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 3, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0,  0, 16, 16], "texture": "#bottom" },
+                "up":    { "uv": [ 0,  0, 16, 16], "texture": "#bottomt"},
+                "north": { "uv": [ 0,  0, 16, 2 ], "texture": "#bottom" },
+                "south": { "uv": [ 0,  0, 16, 2 ], "texture": "#bottom" },
+                "west":  { "uv": [ 0,  0, 16, 2 ], "texture": "#bottom" },
+                "east":  { "uv": [ 0,  0, 16, 2 ], "texture": "#bottom" }
+            }
+        },
+        {   "__comment": "Body",
+            "from": [ 5, 3, 5 ],
+            "to": [ 11, 13, 11 ],
+            "faces": {
+                "north": { "uv": [ 5, 3, 11, 13 ], "texture": "#body" },
+                "south": { "uv": [ 5, 3, 11, 13 ], "texture": "#body" },
+                "west":  { "uv": [ 5, 3, 11, 13 ], "texture": "#body" },
+                "east":  { "uv": [ 5, 3, 11, 13 ], "texture": "#body" }
+            }
+        },
+        {   "__comment": "Pillar1",
+            "from": [ 4, 3, 4 ],
+            "to": [ 6, 13, 6 ],
+            "faces": {
+                "north": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "south": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "west":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "east":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" }
+            }
+        },
+        {   "__comment": "Pillar2",
+            "from": [ 10, 3, 4 ],
+            "to": [ 12, 13, 6 ],
+            "faces": {
+                "north": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "south": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "west":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "east":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" }
+            }
+        },
+        {   "__comment": "Pillar3",
+            "from": [ 4, 3, 10 ],
+            "to": [ 6, 13, 12 ],
+            "faces": {
+                "north": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "south": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "west":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "east":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" }
+            }
+        },
+        {   "__comment": "Pillar4",
+            "from": [ 10, 3, 10 ],
+            "to": [ 12, 13, 12 ],
+            "faces": {
+                "north": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "south": { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "west":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" },
+                "east":  { "uv": [  7,  3, 9, 13 ], "texture": "#pillar" }
+            }
+        },
+        {   "__comment": "Top1",
+            "from": [ 3, 13, 3 ],
+            "to": [ 13, 15, 13 ],
+            "faces": {
+                "down":  { "uv": [  3, 3, 13, 13 ], "texture": "#topb" },
+                "north": { "uv": [  3, 7, 13,  9 ], "texture": "#tops" },
+                "south": { "uv": [  3, 7, 13,  9 ], "texture": "#tops" },
+                "west":  { "uv": [  3, 7, 13,  9 ], "texture": "#tops" },
+                "east":  { "uv": [  3, 7, 13,  9 ], "texture": "#tops" }
+            }
+        },
+        {   "__comment": "Top2",
+            "from": [ 1, 15, 1 ],
+            "to": [ 15, 16, 15 ],
+            "faces": {
+                "down":  { "uv": [  1, 1, 15, 15 ], "texture": "#topb" },
+                "up":    { "uv": [  1, 1, 15, 15 ], "texture": "#topt" },
+                "north": { "uv": [  1,15, 15, 16 ], "texture": "#tops" },
+                "south": { "uv": [  1,15, 15, 16 ], "texture": "#tops" },
+                "west":  { "uv": [  1,15, 15, 16 ], "texture": "#tops" },
+                "east":  { "uv": [  1,15, 15, 16 ], "texture": "#tops" }
+            }
+        }
+    ]
+}

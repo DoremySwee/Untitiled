@@ -1,0 +1,16 @@
+[
+{
+  "modid": "random_altars",
+  "name": "Random Altars",
+  "description": "",
+  "version": "1",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["DoremySwee"],
+  "credits": "DoremySweeeeeeeeeeeeeeeeeee",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
